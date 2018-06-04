@@ -43,3 +43,145 @@ img{
 #Imagenes_Secundarias{
   background-color: #d5c75f;
 }
+@media screen and (max-width:900px){
+  .contenido{
+    width: 100%;
+  }
+  #imagenes{
+    margin: 0;
+    width: 100%;
+  }
+  #BE_Esmeralda{
+    width: 100%;
+  }
+  #paisajes{
+    width: 100%;
+  }
+  #retratos{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+  header{
+    width: 100%;
+  }
+  .titulo{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .banner img{
+        width: 100%;
+    }
+}
+@media (min-width:900px){
+  .contenido{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  header{
+    width: 100%;
+    display: flex;
+  }
+  .titulo{
+    font-size: 35px;
+  }
+  #footer{
+    width: 100%;
+    display: flex;
+  }
+  #imagenes{
+    width: 100%;
+  }
+  #Imagenes_Secundarias{
+    display: flex;
+    height: 300px;
+  }
+  #Imagenes_Secundarias #paisajes{
+    width: 40%;
+    height: 280px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+  }
+  #Imagenes_Secundarias #retratos{
+    width: 40%;
+    height: 280px;
+    margin-top: 10px;
+    position: relative;
+    right: -165px;
+  }
+  #contactos{
+    width: 25%;
+  }
+  #redes{
+    width: 25%;
+  }
+  #terminos{
+    width: 25%;
+  }
+  #derechos{
+    width: 25%;
+  }
+  .banner{
+    display: flex;
+  }
+  .banner img{
+    width: 30%;
+    text-align: center;
+    margin: 15px;
+  }
+}
+#BE_Esmeralda{
+  margin-top: 5px;
+  border: 2px solid black;
+}
+#paisajes{
+  box-shadow: 2px 2px #02010a;
+}
+#paisajes:hover{
+  border: 2px solid black;
+  transform: rotate(10deg);
+  transition: 1s;
+  box-shadow: 5px 5px 4px #82c3a6;
+}
+#retratos{
+  box-shadow: 2px 2px #02010a;
+}
+#retratos:hover{
+  border: 2px solid black;
+  transform: translate(20px, -5px);
+  transition: 1s;
+  box-shadow: -5px 5px 4px #82c3a6;
+}
+footer{
+  background-color: #c6d5c5;
+  border-radius: 10px;
+  font-size: 20px;
+}
+p{
+  margin: 10px;
+}
+.banner img{
+  height: 300px;
+}
+#redes a{
+  text-decoration: none;
+  color: black;
+}
+.banner{
+  background-color: #d5c75f;
+}
+#imagen1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px)
+}
+#imagen2, #imagen4, #imagen6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
