@@ -24,3 +24,22 @@ ul li{
   margin: 10px;
   line-height: 100px;
 }
+img{
+  box-shadow: 2px 2px #02010a;
+}
+.titulo{
+  margin: 10px;
+  color: white;
+  margin-right: 20%;
+}
+#imagenes{
+  width: 1000px;
+  float: left;
+  text-align: center;
+}
+#imagen_Central{
+  background-color: #82c3a6;
+}
+#Imagenes_Secundarias{
+  background-color: #d5c75f;
+}
