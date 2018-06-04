@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+}
+@font-face {
+  font-family: 'DancingScript';
+  src: url('DancingScript.otf');
+}
+body{
+  font-family: 'DancingScript';
+  background-color: #02010a;
+}
+header{
+  width: 1000px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+}
+ul li{
+  list-style: none;
+  float: left;
+}
