@@ -3,54 +3,63 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicio</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <title>Inicio</title>
   </head>
   <body>
-    <div class="contenido">
+    <div id="contenido">
       <header>
-        <div class="titulo">
-          <p>Comenzando con la fotografia</p>
-        </div>
-        <div class="navegador">
-          <ul>
+        <h1>Comenzando con la Fotografia</h1>
+        <nav>
+          <ul class="menunav">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="html/paisajes.html">Paisajes</a></li>
             <li><a href="html/retratos.html">Retratos</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
-      <section id="imagenes">
-        <article id="imagen_Central">
-          <img src="img/Central.jpg" alt="Buque Escuela Esmeralda" id="BE_Esmeralda">
-        </article>
-        <article id="Imagenes_Secundarias">
-          <img src="img/Paisaje.jpg" alt="Paisajes" id="paisajes">
-          <img src="img/Retrato.jpg" alt="Retratos" id="retratos">
+      <section>
+        <article>
+          <div id="imagen_Central">
+            <img src="img/Central.jpg" alt="Buque Escuela Esmeralda" id="BE_Esmeralda">
+          </div>
+          <div class="Imagenes_Secundarias">
+            <div class="Imagenes_Secundarias_Item">
+              <a href="html/paisajes.html">
+                <img src="img/Paisaje.jpg" alt="Paisajes" id="paisajes">
+              </a>
+            </div>
+            <div class="Imagenes_Secundarias_Item">
+              <a href="html/retratos.html">
+                <img src="img/Retrato.jpg" alt="Retratos" id="retratos">
+              </a>
+            </div>
+          </div>
         </article>
       </section>
-      <footer id="footer">
-        <div id="contactos">
-          <p><strong>Contacto</strong></p>
-          <p>dquiroz1988@gmail.com</p>
-          <p>Patria Vieja #290 Hualpen Concepcion</p>
-          <p>Fono: +56 9 9627 6225</p>
-        </div>
-        <div id="terminos">
-          <p><strong>Terminos</strong></p>
-          <p>Pagina de Prueba</p>
-        </div>
-        <div id="redes">
-          <p><strong>Redes Sociales</strong></p>
-          <p><a href="https://twitter.com" target="_blank"><img alt="siguenos en Twitter" height="32" src="http://1.bp.blogspot.com/-7BdDTcxhdi8/UiXnHrEjOqI/AAAAAAAAByU/2nzkRxah3X8/s1600/Twitter+alt+4.png" title="siguenos en Twitter" width="32" /> Twiter</a></p>
-          <p><a href="https://www.linkedin.com" target="_blank"><img alt="Sígueme en Likedin" height="32" src="http://4.bp.blogspot.com/-6fSS1W1pV5U/UiXnKWhitdI/AAAAAAAABzo/iQ_4U_eJ67o/s1600/linkedin_logo_ok.png" title="Sígueme en Likedin" width="32" /> Linkedin</a></p>
-          <p><a href="https://web.facebook.com/diego.quirocly" target="_blank"><img alt="siguenos en facebook" height="32" src="http://1.bp.blogspot.com/-PrByV4NBlSs/UiXnD1FEFnI/AAAAAAAABws/dUhvcAdYRiY/s1600/Facebook+alt+1.png" title="siguenos en facebook" width="32" /> Facebook</a></p>
-        </div>
-        <div id="derechos">
-          <p><strong>Derechos</strong></p>
-          <p>Diego Quiroz Perez</p>
-          <p>&#169 CopyRight - 2018</p>
+      <footer>
+        <div id="footerContainer">
+          <div class="footerItem">
+            <h3>Contacto</h3>
+            <p>dquiroz1988@gmail.com</p>
+            <p>Patria Vieja #290 Hualpen Concepcion</p>
+            <p>Fono: +56 9 9627 6225</p>
+          </div>
+          <div class="footerItem">
+            <h3>Terminos</h3>
+            <p>Pagina de Prueba</p>
+          </div>
+          <div class="footerItem">
+            <h3>Redes Sociales</h3>
+            <p><a href="https://twitter.com" target="_blank"><img alt="siguenos en Twitter" height="32" src="http://1.bp.blogspot.com/-7BdDTcxhdi8/UiXnHrEjOqI/AAAAAAAAByU/2nzkRxah3X8/s1600/Twitter+alt+4.png" title="siguenos en Twitter" width="32" /> Twiter</a></p>
+            <p><a href="https://www.linkedin.com" target="_blank"><img alt="Sígueme en Likedin" height="32" src="http://4.bp.blogspot.com/-6fSS1W1pV5U/UiXnKWhitdI/AAAAAAAABzo/iQ_4U_eJ67o/s1600/linkedin_logo_ok.png" title="Sígueme en Likedin" width="32" /> Linkedin</a></p>
+            <p><a href="https://web.facebook.com/diego.quirocly" target="_blank"><img alt="siguenos en facebook" height="32" src="http://1.bp.blogspot.com/-PrByV4NBlSs/UiXnD1FEFnI/AAAAAAAABws/dUhvcAdYRiY/s1600/Facebook+alt+1.png" title="siguenos en facebook" width="32" /> Facebook</a></p>
+          </div>
+          <div class="footerItem">
+            <h3>Derechos</h3>
+            <p>Diego Quiroz Perez</p>
+            <p>&#169 CopyRight - 2018</p>
+          </div>
         </div>
       </footer>
     </div>
