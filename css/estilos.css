@@ -13,7 +13,7 @@ body{
   width: 900px;
 }
 
-/* AJUSTES DE HEADER */
+/* HEADER SETTINGS */
 
 header{
   width: 100%;
@@ -71,27 +71,27 @@ ul.menunav li a {
 ul.menunav li a.active {text-decoration: none;}
 ul.menunav li {float: left; width: 33.3%;}
 
-/* AJUSTES DE IMAGENES */
+/* IMAGES SETTINGS */
 
 img{
   box-shadow: 2px 2px #02010a;
 }
 
-#imagen_Central{
+#principalPicture{
   background-color:  #82c3a6;
   width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
-#imagen_Central img{
+#principalPicture img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
 }
 
-.Imagenes_Secundarias{
+.secondaryPictureContainer{
   background-color: #d5c75f;
   border: 1px solid;
   height: 100%;
@@ -100,31 +100,31 @@ img{
   flex-flow: row nowrap;
 }
 
-.Imagenes_Secundarias_Item{
+.secondaryPictureItem{
   width: 50%;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-.Imagenes_Secundarias_Item img{
+.secondaryPictureItem img{
   display: block;
   margin: auto;
   width: 60%;
 }
 
-#paisajes, #retratos{
+#secondaryPictureLeft, #secondaryPictureRight{
   transition: transform 2s;
 }
 
-#paisajes:hover{
+#secondaryPictureLeft:hover{
   transform: rotate(10deg);
 }
 
-#retratos:hover{
+#secondaryPictureRight:hover{
   transform: translate(20px, -5px);
 }
 
-/* AJUSTES DE GALERIA */
+/* GALERY SETTINGS */
 
 .galeryContainer{
   background-color: #d5c75f;
@@ -183,7 +183,7 @@ footer{
   margin: auto;
 }
 
-/* AJUSTES MOBILE */
+/* MOBILE SETTINGS */
 
 @media screen and (max-width: 900px){
 
@@ -215,11 +215,11 @@ footer{
       font-size: 1.2em;
     }
 
-    .Imagenes_Secundarias_Container{
+    .secondaryPictureContainer{
       flex-flow: column nowrap !important;
     }
 
-    .Imagenes_Secundarias_Item{
+    .secondaryPictureItem{
       width: 100% !important;
     }
 
